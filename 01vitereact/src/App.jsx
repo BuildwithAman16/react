@@ -1,11 +1,13 @@
 import { useState } from 'react'
+import Chai from './Chai.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1>hello Chai</h1>
+    <Chai />
+    <h1>Hii</h1>
     </>
   )
 }
